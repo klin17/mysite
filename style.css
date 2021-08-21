@@ -1,0 +1,137 @@
+html {
+    font-size: 14pt;
+    height: 100%;
+    scroll-behavior: smooth;
+}
+
+body {
+    color: white;
+    background-color: rgb(39, 41, 49);
+    font-family: "Verdana",sans-serif;
+    line-height: 2;
+    font-size: 14pt;
+    margin: 0;
+    height: 100%;
+}
+
+a {
+    color: white;
+}
+
+a:hover {
+    color: rgb(143, 208, 248);
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgb(39, 41, 49);
+}
+
+.menu {
+    width: 100%;
+	overflow:hidden;
+	font-size:1.5rem;
+    border-bottom: 1px solid #3c5392;
+}
+
+.menu span {
+    float: left;
+    padding: 14px 16px;
+}
+
+.icon-list {
+	float:right;
+    padding: 14px 16px;
+}
+
+.icon-list a {
+    font-size:1rem;
+    float:left;
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.maincolumn {
+    padding: 0 15% 0 15%;
+}
+
+.maincolumn section {
+    padding-top: 100px;
+}
+
+.card {
+    border: 1px solid white;
+    border-radius: .25rem;
+    display:flex;
+    flex-direction: column;
+    padding: 1rem;
+}
+
+.card-head {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.card-image img {
+    max-width: 150px;
+    max-height: 75px;
+    padding-right: 20px;
+}
+
+.card-title {
+    margin-bottom: .75rem;
+    font-size: 1.25rem;
+    font-weight: 500;
+    line-height: 1.2;
+    font-weight: bold;
+}
+
+.card-subtitle {
+    margin-bottom: .5rem;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+.card-text {
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+footer {
+    height: 5rem;
+    margin-top: 100px;
+    background-color: rgb(7, 9, 26);
+}
+
+footer p {
+    margin-top: 0;
+    font-size: 0.75rem;
+}
+
+.contact-info-list {
+    display: flex;
+    justify-content: center;
+}
+
+.contact-info-list a {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    font-size: 0.75rem;
+}
+
+.footer-container {
+    height: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}

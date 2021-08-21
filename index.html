@@ -1,108 +1,173 @@
-
 <!DOCTYPE html>
-<html lang="en-US">
-
+<html lang="en">
 <head>
-    <meta charset='utf-8'>
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width,maximum-scale=2">
-    <link rel="stylesheet" type="text/css" media="screen" href="/mysite/assets/css/style.css?v=b147f0ea80d4aaf5f457b872fd67eddda0496aa5">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Kevin Lin</title>
+  <!-- Bootstrap -->
+  <link href="assets/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Font-Awesome -->
+  <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet">
+	<!-- Theme Style -->
+  <link href="style.css" rel="stylesheet">
+	<!-- Animations -->
+  <link href="animate.css" rel="stylesheet">=
+  </head>
 
-    <!-- Begin Jekyll SEO tag v2.7.1 -->
-    <title>Welcome to GitHub Pages | mysite</title>
-    <meta name="generator" content="Jekyll v3.9.0" />
-    <meta property="og:title" content="Welcome to GitHub Pages" />
-    <meta property="og:locale" content="en_US" />
-    <meta name="description" content="My personal website" />
-    <meta property="og:description" content="My personal website" />
-    <link rel="canonical" href="https://klin17.github.io/mysite/" />
-    <meta property="og:url" content="https://klin17.github.io/mysite/" />
-    <meta property="og:site_name" content="mysite" />
-    <meta name="twitter:card" content="summary" />
-    <meta property="twitter:title" content="Welcome to GitHub Pages" />
-    <script type="application/ld+json">
-    {"headline":"Welcome to GitHub Pages","description":"My personal website","url":"https://klin17.github.io/mysite/","@type":"WebSite","name":"mysite","@context":"https://schema.org"}</script>
-    <!-- End Jekyll SEO tag -->
+  <body id="top">
+    <header id="home">
+      <nav class="menu">
+        <span id="main">Kevin Lin</span>
+        
+          <!-- Menu Links -->
+        <div class="icon-list">
+          <a href="#">Home</a>
+          <a href="#about">About</a>
+          <a href="#experience">Experience</a>
+          <a href="#education">Education</a>
+        </div>
+      </nav>
+    </header>
 
-        <!-- start custom head snippets, customize with your own _includes/head-custom.html file -->
+    <div class="maincolumn">
 
-    <!-- Setup Google Analytics -->
+      <section id="about">
+        <h1>About Me</h1>
+        <p>
+        I'm a third year student studying Computer Science at UMass Amherst. 
+        Since I love learning how things work, STEM has always caught my interest, 
+        and I decided to focus on computers with the internet and smart devices taking over how the world communicates and interacts.
+        Some CS fields I'm interested in include cybersecurity, natural language processing, and web development.
+        </p>
+      </section>
 
+      <section id="experience">
+        <h1>Experience</h1>
 
+        <div class="card">
+          <div class="card-body">
+            <div class="card-head">
+              <div class="card-head-text">
+                <div class="card-title">MITRE</div>
+                <div class="card-subtitle">Intern</div>
+                <div class="card-subtitle"><i>May 2020 - Present</i></div>
+              </div>
+              <div class="card-image">
+                <!-- <img src="images/MITRE-logo.png" alt="MITRE logo"> -->
+              </div>
+            </div>
+            
+            <p class="card-text">
+              I've worked on two projects during my internship with MITRE. 
+              In my first year I implemented and integrated Bit Error Rate testing and expanded the GUI for communications application.
+              Then in my second year I improved a tweet clustering program and created a visualization for the semantic vectors
+              and also designed and prototyped a sharing framework for misinformation mitigation.
+              Technologies used include Python, TypeScript/JavaScript, React, materialui, Flask, VSCode, Pycharm, vim, and SpaCy
+            </p>
+          </div>
+        </div>
 
-    <!-- You can set your favicon here -->
-    <!-- link rel="shortcut icon" type="image/x-icon" href="/mysite/favicon.ico" -->
+        &nbsp;
 
-    <!-- end custom head snippets -->
-
-</head>
-
-<body>
-    <!-- HEADER -->
-    <div id="header_wrap" class="outer">
-        <header class="inner">
-          
-            <a id="forkme_banner" href="https://github.com/klin17/mysite">View on GitHub</a>
-          
-
-            <h1 id="project_title">mysite</h1>
-            <h2 id="project_tagline">My personal website</h2>
-
-          
-        </header>
-    </div>
-
-    <!-- MAIN CONTENT -->
-    <div id="main_content_wrap" class="outer">
-      <section id="main_content" class="inner">
-        <h2 id="welcome-to-github-pages">Welcome to GitHub Pages</h2>
-
-<p>You can use the <a href="https://github.com/klin17/mysite/edit/gh-pages/index.md">editor on GitHub</a> to maintain and preview the content for your website in Markdown files.</p>
-
-<p>Whenever you commit to this repository, GitHub Pages will run <a href="https://jekyllrb.com/">Jekyll</a> to rebuild the pages in your site, from the content in your Markdown files.</p>
-
-<h3 id="markdown">Markdown</h3>
-
-<p>Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for</p>
-
-<div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Syntax highlighted code block
-
-<span class="gh"># Header 1</span>
-<span class="gu">## Header 2</span>
-<span class="gu">### Header 3</span>
-<span class="p">
--</span> Bulleted
-<span class="p">-</span> List
-<span class="p">
-1.</span> Numbered
-<span class="p">2.</span> List
-
-<span class="gs">**Bold**</span> and _Italic_ and <span class="sb">`Code`</span> text
-
-<span class="p">[</span><span class="nv">Link</span><span class="p">](</span><span class="sx">url</span><span class="p">)</span> and !<span class="p">[</span><span class="nv">Image</span><span class="p">](</span><span class="sx">src</span><span class="p">)</span>
-</code></pre></div></div>
-
-<p>For more details see <a href="https://guides.github.com/features/mastering-markdown/">GitHub Flavored Markdown</a>.</p>
-
-<h3 id="jekyll-themes">Jekyll Themes</h3>
-
-<p>Your Pages site will use the layout and styles from the Jekyll theme you have selected in your <a href="https://github.com/klin17/mysite/settings/pages">repository settings</a>. The name of this theme is saved in the Jekyll <code class="language-plaintext highlighter-rouge">_config.yml</code> configuration file.</p>
-
-<h3 id="support-or-contact">Support or Contact</h3>
-
-<p>Having trouble with Pages? Check out our <a href="https://docs.github.com/categories/github-pages-basics/">documentation</a> or <a href="https://support.github.com/contact">contact support</a> and we’ll help you sort it out.</p>
+        <div class="card">
+          <div class="card-body">
+            <div class="card-head">
+              <div class="card-head-text">
+                <div class="card-title">Project Destiny</div>
+                <div class="card-subtitle">Counselor</div>
+                <div class="card-subtitle"><i>Summers 2017-2019</i></div>
+              </div>
+              <div class="card-image">
+                <!-- <img src="images/PD-Official-Logo-with-Words-Horizontal-copy.jpg" alt="PD logo"> -->
+              </div>
+            </div>
+            <p class="card-text">
+              Project Destiny is a summer day camp hosted by Boston Chinese Evangelical Church. 
+              The purpose of Project Destiny is to glorify God by serving the Chinatown community, 
+              bringing campers to know more of Christ, 
+              and offering life changing urban ministry experience to its stafff.
+              As a camp counselor I helped lead a group of middle school boys in discussions, 
+              was responsible for them during field trips, 
+              and also helped teach fun and educational classes.
+            </p>
+          </div>
+        </div>
 
       </section>
-    </div>
 
-    <!-- FOOTER  -->
-    <div id="footer_wrap" class="outer">
-      <footer class="inner">
-        
-        <p class="copyright">mysite maintained by <a href="https://github.com/klin17">klin17</a></p>
-        
-        <p>Published with <a href="https://pages.github.com">GitHub Pages</a></p>
-      </footer>
+      <section id="education">
+        <h1>Education</h1>
+
+        <div class="card">
+          <div class="card-body">
+            <div class="card-head">
+              <div class="card-head-text">
+                <div class="card-title">UMass Amherst</div>
+                <div class="card-subtitle">CICS | Computer Science (B.S)</div>
+                <div class="card-subtitle"><i>Expected Graduation 2023</i></div>
+                <div class="card-subtitle">4.0/4.0 GPA</div>
+              </div>
+              <div class="card-image">
+                <!-- <img src="images/umass-text.png" alt="UMass logo"> -->
+              </div>
+            </div>
+            <p class="card-text">
+              I am currently pursuing a degree in Computer Science with the College of Information and Computer Science. 
+              Programming courses include Programming with Data Structures, Computer Systems Principles, Introduction to Computation, Introduction to UNIX, and Programming Methodology.
+              Classes included technologies and languages such as Java, JavaScript, C, ssh, Oracle, git, bash, and vim.
+              Other courses include Linear Algebra, Multivariable Calculus, and Introducction to Linguistic Theory
+            </p>
+          </div>
+        </div>
+
+        &nbsp;
+
+        <div class="card">
+          <div class="card-body">
+            <div class="card-head">
+              <div class="card-head-text">
+                <div class="card-title">Newton South High School</div>
+                <div class="card-subtitle"><i>2015-2019</i></div>
+                <div class="card-subtitle">3.8685/4.0 GPA</div>
+              </div>
+              <div class="card-image">
+                <!-- <img src="images/nshs_seal.png" alt="Newton South seal"> -->
+              </div>
+            </div>
+            
+            <p class="card-text">
+              Newton South's computer science courses included Intro to Programming and Computer Science, iOS Programming, and Advanced Computer Programming, all taught in Swift.
+              I also had the opportunity to take Web Design which introduced basic HTML and CSS, as well as Digital Imaging which used Cinema 4D. 
+            </p>
+          </div>
+        </div>
+
+      </section>
+
     </div>
-  </body>
+		
+    &nbsp;
+
+		<!-- ==========================
+        FOOTER SECTION
+        =========================== -->
+    <footer>
+      <div class="footer-container">
+        <div class="contact-info-list">
+          <a href="https://github.com/klin17" class="social-btn"><i class="fa fa-github"> </i></a>
+          <a href="https://www.linkedin.com/in/kevin-lin-5042b2219/" class="social-btn"><i class="fa fa-linkedin"> </i></a>
+        </div>
+        <p> 
+          Last updated August 20th 2021.
+          See this page's <a href="https://github.com/klin17/mysite/tree/gh-pages">github repo</a> for code
+        </p>
+      </div>
+    </footer>
+		<!-- ==========================
+        FOOTER SECTION END
+        =========================== -->		
+	<script src="js/main.js"></script>
+	<script src="js/script.js"></script>
+	
+    </body>
 </html>
